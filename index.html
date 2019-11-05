@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a class="brand-logo center">World Webcam Finder</a>
+
+    </div>
+  </nav>
+  </div>
+  <h3>Click to add a marker then click again to search for cameras</h3>
+  <div class="container">
+
+        <input type=button value="Delete Markers">
+    <div id="map" class="z-depth-5">
+    </div>
+
+
+    <iframe id="player" name="lkr-timelapse-player-iframe" class="z-depth-5"></iframe>
+  </div>
+  <div id="playerList" class="z-depth-5"></div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+  <script async type="text/javascript" src="https://api.lookr.com/embed/script/player.js"></script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVgsGmCxm4XAi46mL8_0EDQAcK1oALSlY&callback=initMap"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/app.js"></script>
+  <script src="https://cdn.klokantech.com/maptilerlayer/v1/index.js"></script>
+</body>
+
+</html>
